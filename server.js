@@ -18,7 +18,7 @@ function timeStamper(req, res, next) {
 }
 
 function getData(req, res) {
-  res.status(200).send(req.timeStamp)
+  res.status(200).send(req.timeStamp);
 }
 
 
@@ -27,7 +27,7 @@ function getData(req, res) {
 
 function start(port) {
   app.listen(port, () => {
-    console.log(`Server up on port ${port}`)
+    console.log(`Server up on port ${port}`);
 
   });
 }
